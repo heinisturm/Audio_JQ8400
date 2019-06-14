@@ -13,11 +13,11 @@ class Audio_JQ8400
 {
 public:
 	enum EQMode {
-		Normal = 0,
-		POP,
-		Rock,
-		Jazz,
-		Classic
+		EQ_Normal = 0,
+		EQ_POP,
+		EQ_Rock,
+		EQ_Jazz,
+		EQ_Classic
 	};
 
 	void playIndex(uint16_t idx);
