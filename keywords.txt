@@ -1,0 +1,5 @@
+Audio_JQ8400	KEYWORD1
+setVolume KEYWORD2
+setEQ KEYWORD2
+playIndex  KEYWORD2
+playNext KEYWORD2
