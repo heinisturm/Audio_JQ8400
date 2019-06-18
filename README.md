@@ -58,7 +58,7 @@ In your start up you might call `ajq.setVolume(X)` or `ajq.setEQ(Audio_JQ8400::E
 
 #### void playIndex(uint16_t idx)
 
-  Start playing File number idx.
+  Start playing file number idx.
 
 #### void playNext()
 
