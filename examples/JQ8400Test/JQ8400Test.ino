@@ -8,6 +8,6 @@ void setup() {
 }
 
 void loop() {
-	playIndex(1);
+	ajq.playIndex(1);
 	delay(10000);
 }
