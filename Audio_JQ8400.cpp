@@ -7,7 +7,7 @@
 #include "Arduino.h"
 #include "Audio_JQ8400.h"
 
-Audio_JQ8400::Audio_JQ8400(HardwareSerial &_ser)
+Audio_JQ8400::Audio_JQ8400(Stream &_ser)
 {
   ser = &_ser;
 }

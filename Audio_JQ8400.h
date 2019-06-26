@@ -12,7 +12,7 @@
 class Audio_JQ8400
 {
 public:
-	Audio_JQ8400(HardwareSerial &ser);
+	Audio_JQ8400(Stream &_ser);
 	Audio_JQ8400();
 
 	enum EQMode {
@@ -28,7 +28,7 @@ public:
 	void setVolume(uint8_t vol);
 	void setEQ(EQMode eq);
 private:
-	HardwareSerial *ser;
+	Stream *ser;
 };
 
 #endif
